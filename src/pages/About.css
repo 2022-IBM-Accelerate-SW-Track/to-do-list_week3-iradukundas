@@ -10,11 +10,24 @@
 
 .left {
   left: 0;
-  background-color: #0f62fe;
+  background-color: #3b4252;
 }
 
 .right {
   right: 0;
+  background-color: #d0ccbc;
+}
+.name_title{
+  font-weight: bold;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.brief_description{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  font-style: oblique;
+
 }
 
 .centered {
@@ -39,4 +52,9 @@
 .profile_image {
   width: 500px;
   height: auto;
+  transform: rotate(90deg);
+  border: 8px groove #d0ccbc;
+  
+  
 }
+
